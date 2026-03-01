@@ -108,7 +108,7 @@ Fitur visual:
 - Animated skill bar
 - Dark theme section
 
-Menggunakan sistem Bootstrap Grid: `<div class="row">`
+Section ini menggunakan sistem Bootstrap Grid: `<div class="row">`
 
 **Experience**
 
@@ -152,13 +152,11 @@ Fitur:
 - Grid responsive (Desktop & Mobile)
 - Pengguna dapat membuka sertifikat secara langsung melalui tombol Lihat →.
 
-Card sertifikat dibuat secara reusable.
-
-Vue Loop:
+Pada section ini card sertifikat dibuat secara reusable menggunakan Vue Loop:
 
 ```v-for="cert in certificates"```
 
-Hover effect menggunakan:
+Lalu dilengkapi juga dengan Hover effect menggunakan:
 ```
 .cert-overlay {
   opacity: 0;
